@@ -1,0 +1,19 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Snacks</title>
+    <link rel="stylesheet" href="{% static 'src/base.css' %}">
+</head>
+<nav>
+  <ul>
+    <li><a href="{% url 'snack_list' %} ">Home</a></li>
+  </ul>
+</nav>
+<body background-color: #DBF9FC;>
+    {% block content %}
+        <h1>Missing Content</h1>
+    {% endblock content %}
+</body>
+</html>
