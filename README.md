@@ -3,6 +3,7 @@ Slava Makeev
 Anthony Sinitsa
 Dan Quinn
 Sarah Glass
+ChatGPT
 
 Run test
 python3 manage.py test
