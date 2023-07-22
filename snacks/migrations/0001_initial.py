@@ -21,6 +21,7 @@ class Migration(migrations.Migration):
                 ('name', models.CharField(max_length=128)),
                 ('rating', models.IntegerField(default=0)),
                 ('reviewer', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
+                ('description', models.TextField(default=0))
             ],
         ),
     ]

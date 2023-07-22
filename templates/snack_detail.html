@@ -3,8 +3,9 @@
 
 {% block content %}
   <section>
-    <h2>Snacks Name: {{ Snacks.name }}</h2>
-    <p>Snacks Rating: {{ Snacks.rating }}</p>
-    <p>Snacks Reviewer: {{ Snacks.reviewer }}</p>
+    <h2>Snacks Name: {{ snack.name }}</h2>
+    <p>Snacks Rating: {{ snack.rating }}</p>
+    <p>Snacks Reviewer: {{ snack.reviewer }}</p>
+    <p>Snacks Description: {{ snack.description }}</p>
   </section>
 {% endblock content %}
